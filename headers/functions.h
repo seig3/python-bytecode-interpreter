@@ -1,2 +1,2 @@
-extern char* strrev(char *);
+extern char* strrvs(char *);
 extern int push(int );

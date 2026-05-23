@@ -1,0 +1,17 @@
+CC = zcc
+CFLAGS = +msx -subtype=msxdos2 -lm --math32 --math16 -compiler=sdcc -create-app -DAMALLOC
+OBJECTS = programfiles/main.o programfiles/interpreter.o functions/functions.o functions/hextodecimal.o
+LSTFILE = pyvm.lst
+OUT = pyvm.com
+
+.PHONY: all clean pyvm force
+
+all: pyvm
+
+pyvm: force
+	$(CC) $(CFLAGS) @$(LSTFILE) -o $(OUT)
+
+force:
+
+clean:
+	rm -f $(OUT) $(OBJECTS)

@@ -1,7 +1,10 @@
 #define SIZE 256
 extern int htod(char* hex);
+//extern instruction_node *head;
 
-struct function{
+
+
+extern struct function{
 
   int fn_body[SIZE];
   int ln_of_fn_body;
@@ -12,5 +15,5 @@ struct function{
   int cnt_local_variables;
   int local_vars_names[SIZE];
   int module_name[SIZE];
-  
 }fun[SIZE];
+//}fun;
