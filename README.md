@@ -18,7 +18,7 @@ Some of the Instructions and their equivalent hex values as in Python v 2.7.10
 ### Installation and Usage:
 
 ```
-     make
+     make -f makefile.z88dk
 
 ```
 A pyvm executable is created which takes .pyc files as command line input.
@@ -28,11 +28,11 @@ A pyvm executable is created which takes .pyc files as command line input.
 	
 ```
 
-Running Testcodes:
+Running Testcodes on MSXDOS2:
 
 ```
-    ./pyvm testcodes/fac.pyc
-    ./pyvm testcodes/loop.pyc
+    A>pyvm testcodes/fac.pyc
+    A>pyvm testcodes/loop.pyc
 	
 ```
 
