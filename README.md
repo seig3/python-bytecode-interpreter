@@ -36,6 +36,14 @@ Running Testcodes on MSXDOS2:
 	
 ```
 
+Running Tracemode option on MSXDOS2:
+
+```
+    A>pyvm -t testcodes/fac.pyc
+    A>pyvm -t testcodes/loop.pyc
+	
+```
+
 "testfile.py" is a python script for testing, it tests for factorial, even, loop and lmn .pyc files. This test file should be run only after make.
 
 -----
