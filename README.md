@@ -40,5 +40,5 @@ Running Testcodes on MSXDOS2:
 
 -----
 1st release on April 1, 2026.
-<img width="852" height="666" alt="image" src="https://github.com/user-attachments/assets/b3221e34-62ed-4b9e-b64b-2041842033ed" />
-<img width="857" height="676" alt="image" src="https://github.com/user-attachments/assets/b33ba41d-1899-4268-8b35-fe076dfcf4af" />
+
+<img width="858" height="666" alt="image" src="https://github.com/user-attachments/assets/d0574ec2-da87-4d51-9794-d733f1c88cbe" />
