@@ -36,7 +36,7 @@ Running Testcodes on MSXDOS2:
 	
 ```
 
-Running Tracemode option on MSXDOS2:
+Running wihth Tracemode option on MSXDOS2:
 
 ```
     A>pyvm -t testcodes/fac.pyc
